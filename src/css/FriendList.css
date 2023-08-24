@@ -1,0 +1,32 @@
+.friend-list{
+  display: flex;
+  justify-content: center;
+  column-gap: 50px;
+}
+.item {
+    display: flex;
+}
+
+.status {
+    margin-top: 10px;
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+
+  .hidden {
+    visibility: hidden;
+    position: absolute;
+  }
+  .online {
+    background-color: green;
+  }
+  
+  .offline {
+    background-color: red;
+  }
+  
+  .name{
+    margin-left: 10px;
+  }
