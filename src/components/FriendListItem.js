@@ -4,8 +4,6 @@ import '../css/FriendList.css';
 
 const FriendListItem = ({ avatar, name, isOnline, id }) => {
 
-  const statusText = isOnline ? 'Online' : 'Offline';
-
   return (
     <li className="item">
       <span className={`status ${isOnline ? 'online' : 'offline'}`}>
